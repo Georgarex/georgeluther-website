@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George Luther - Data Scientist</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to external CSS -->
+    <style>
+        /* Increase padding to create space below the navbar */
+        body {
+            padding-top: 100px; /* Adjust the spacing between navbar and content */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">George Luther</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="text-center text-white bg-primary py-5">
+        <div class="container">
+            <h1>Hi, I'm George Luther</h1>
+            <p class="lead">Data Scientist | AI Researcher | Algorithms Engineer</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container section-container">
+        <h2 class="text-center">About Me</h2>
+        <p class="text-center">
+        I am a passionate Data Scientist with 3+ years of experience specializing in <b>algorithm optimization, machine
+        learning, and big data analytics</b>. Proven ability to design AI-driven optimization frameworks,
+        deep learning models, and large-scale data integrations using <b>Python (PuLP, PyTorch), SQL
+        (Athena), and AWS (S3, EC2)</b>. Strong expertise in statistical modeling, data validation, and
+        Tableau-based data visualization for extracting insights from complex datasets. Currently
+        pursuing a <b>Master’s in Artificial Intelligence (WAM 90.67)</b> with a focus on deep learning and predictive analytics.
+        Passionate about scalable AI solutions, quantitative modeling, and business-driven data
+        science.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container section-container text-center">
+        <h2 class="text-center">Skills</h2>
+        <div class="skills-container">
+            <img src="images/python.png" alt="Python">
+            <img src="images/aws.png" alt="AWS">
+            <img src="images/matlab.png" alt="MATLAB">
+            <img src="images/java.png" alt="Java">
+            <img src="images/sql.png" alt="SQL">
+            <img src="images/pytorch.png" alt="PyTorch">
+            <img src="images/tableau.png" alt="Tableau">
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="container section-container">
+        <h2 class="text-center">Experience</h2>
+        <div class="formatted-text">
+            
+            <h5>Milton Data, North Sydney – Data Scientist</h5>
+            <p><b>JULY 2022 – PRESENT</b></p>
+            <ul>
+                <li>Developed an <b>AI-driven optimization framework</b> leveraging <b>PuLP & hill-climbing algorithms</b> to align <b>40M+ big data records</b> across <b>genre, publisher, and device dimensions</b> using <b>AWS Athena & S3</b> for <b>IPSOS AU</b>.</li>
+                <li>Led <b>YouTube-CTV data integration</b> for <b>Google & IPSOS AU</b>, ensuring <b>99.8% algorithmic consistency</b> across multiple <b>demographic and behavioural constraints</b>.</li>
+                <li>Audited and validated <b>demographic insights</b> for <b>IPSOS UK</b> by assessing distributions of respondent-level data using <b>bootstrap</b> and other <b>statistical methods</b>.</li>
+            </ul>
+
+            <h5>Uber Technologies Ltd., Sydney – Operations Analyst</h5>
+            <p><b>DECEMBER 2021 – JULY 2022</b></p>
+            <ul>
+                <li>Automated <b>compliance verification</b> using <b>Python & BeautifulSoup</b>, reducing manual vehicle status checks for a process by <b>99%</b>, saving <b>2-3 hours per week</b>.</li>
+                <li>Conducted <b>SQL-based data analysis</b> to assess <b>driver compliance & operational efficiency</b>, enabling <b>faster decision-making</b> for business teams.</li>
+                <li>Collaborated with <b>cross-functional teams</b> (Legal, Compliance, and Marketplace) to optimize <b>regulatory adherence</b> & <b>data-driven insights</b> for operational KPIs.</li>
+            </ul>
+
+        </div>
+    </section>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container section-container">
+        <h2 class="text-center">Projects</h2>
+
+        <div class="formatted-text">
+            <h5><b>Dementia Classification Using Deep Learning</b></h5>
+            <p>Developed an ensemble deep learning model using MRI scans and ResNet-50 for dementia classification.</p>
+            <div class="pdf-container">
+                <iframe src="resources/OASIS_Dementia_Classification_final.pdf"></iframe>
+            </div>
+            <p>
+                <a href="https://www.kaggle.com/code/georgeluther/oasis-classification-3-level-model" target="_blank" class="btn btn-primary">View Kaggle Notebook</a>
+                <a href="resources/OASIS_Dementia_Classification_final.pdf" download class="btn btn-secondary">Download PDF</a>
+            </p>
+        </div>
+
+        <div class="formatted-text mt-4">
+            <h5><b>Variational Autoencoder for Data Oversampling</b></h5>
+            <p>Implemented VAEs to generate synthetic samples, addressing class imbalance in training data.</p>
+            <div class="pdf-container">
+                <iframe src="resources/VAE_Oversampling_Project.pdf"></iframe>
+            </div>
+            <p>
+                <a href="https://colab.research.google.com/drive/16KwuF8GyjZT8eOnaDKBb7Yx0L5O09loo" target="_blank" class="btn btn-primary">View Google Colab Notebook</a>
+                <a href="resources/VAE_Oversampling_Project.pdf" download class="btn btn-secondary">Download PDF</a>
+            </p>
+        </div>
+
+        <div class="formatted-text mt-4">
+            <h5><b>Physics Simulation of a Double Pendulum</b></h5>
+            <p>Simulated chaotic motion of a double pendulum in MATLAB using numerical integration techniques.</p>
+            <div class="pdf-container">
+                <iframe src="resources/physics_double_pendulum_simulation.pdf"></iframe>
+            </div>
+            <p><a href="resources/physics_double_pendulum_simulation.pdf" download class="btn btn-primary">Download PDF</a></p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <div class="d-flex justify-content-center gap-3">
+                <p>Email: <a href="mailto:george.luther1@hotmail.com">George.Luther1@hotmail.com</a></p>
+                <p><a href="https://www.linkedin.com/in/george-luther-699a01191/" target="_blank">LinkedIn</a></p>
+                <p><a href="https://github.com/Georgarex" target="_blank">GitHub</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
