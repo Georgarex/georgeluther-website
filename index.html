@@ -9,7 +9,7 @@
     <style>
         /* Increase padding to create space below the navbar */
         body {
-            padding-top: 100px; /* Adjust the spacing between navbar and content */
+            padding-top: 50px; /* Adjust the spacing between navbar and content */
         }
     </style>
 </head>
@@ -43,8 +43,8 @@
 
     <!-- About Section -->
     <section id="about" class="container section-container">
-        <h2 class="text-center">About Me</h2>
-        <p class="text-center">
+        <h2 class="text-center" id="about-me">About Me</h2>
+        <p class="text-center justify-text">
         I am a passionate Data Scientist with 3+ years of experience specializing in <b>algorithm optimization, machine
         learning, and big data analytics</b>. Proven ability to design AI-driven optimization frameworks,
         deep learning models, and large-scale data integrations using <b>Python (PuLP, PyTorch), SQL
@@ -103,7 +103,15 @@
 
         <div class="formatted-text">
             <h5><b>Dementia Classification Using Deep Learning</b></h5>
-            <p>Developed an ensemble deep learning model using MRI scans and ResNet-50 for dementia classification.</p>
+            <p>Developed an ensemble deep learning model using MRI scans and ResNet-50 for dementia classification with limited computational resources.</p>
+            <p><b>Key Takeaways:</b></p>
+            <ul>
+                <li>Gained hands-on experience with <b>PyTorch preprocessing</b> techniques.</li>
+                <li>Developed a deep learning model that achieved <b>59.58% accuracy</b> across multiple dementia classes.</li>
+                <li>Worked extensively with <b>image processing and augmentation</b> techniques.</li>
+                <li>Handled medical imaging datasets efficiently using <b>PyTorch image loaders</b>.</li>
+                <li>Addressed <b>class imbalance</b> by implementing advanced resampling techniques.</li>
+            </ul>
             <div class="pdf-container">
                 <iframe src="resources/OASIS_Dementia_Classification_final.pdf"></iframe>
             </div>
@@ -116,6 +124,14 @@
         <div class="formatted-text mt-4">
             <h5><b>Variational Autoencoder for Data Oversampling</b></h5>
             <p>Implemented VAEs to generate synthetic samples, addressing class imbalance in training data.</p>
+            <p><b>Key Takeaways:</b></p>
+            <ul>
+                <li>Explored and visualized the <b>latent space</b> to understand how the VAE encodes data distributions.</li>
+                <li>Developed a <b>Multilayer Perceptron (MLP)</b> and a <b>Variational Autoencoder (VAE)</b> using PyTorch.</li>
+                <li>Generated <b>synthetic samples</b> to improve class balance and enhance model training.</li>
+                <li>Implemented <b>oversampling techniques</b> using VAE-generated data to address dataset imbalance.</li>
+                <li>Fine-tuned the <b>VAE's loss function</b> and regularization to improve reconstruction accuracy.</li>
+            </ul>
             <div class="pdf-container">
                 <iframe src="resources/VAE_Oversampling_Project.pdf"></iframe>
             </div>
@@ -127,7 +143,15 @@
 
         <div class="formatted-text mt-4">
             <h5><b>Physics Simulation of a Double Pendulum</b></h5>
-            <p>Simulated chaotic motion of a double pendulum in MATLAB using numerical integration techniques.</p>
+            <p class="justify-text">Simulated chaotic motion of a double pendulum in MATLAB using numerical integration techniques.</p>
+            <p><b>Key Takeaways:</b></p>
+            <ul>
+                <li>Implemented <b>numerical integration techniques</b> such as <b>Euler's Method</b> and <b>Runge-Kutta (RK4)</b> for simulating motion.</li>
+                <li>Modeled the <b>chaotic behavior</b> of a double pendulum using <b>Lagrangian mechanics</b>.</li>
+                <li>Developed MATLAB scripts to visualize <b>energy conservation</b> and <b>phase-space trajectories.</b></li>
+                <li>Worked with <b>differential equations</b> to compute angular velocity and acceleration.</li>
+                <li>Generated animated visualizations to illustrate the <b>sensitive dependence on initial conditions</b>.</li>
+            </ul>
             <div class="pdf-container">
                 <iframe src="resources/physics_double_pendulum_simulation.pdf"></iframe>
             </div>

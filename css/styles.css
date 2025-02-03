@@ -41,3 +41,30 @@ body {
     padding: 10px;
     height: 120px;
 }
+
+.justify-text {
+    text-align: justify;
+}
+
+/* Increase spacing between bullet points */
+.formatted-text ul li {
+    margin-bottom: 12px; /* Adjust spacing as needed */
+    line-height: 1.6; /* Increases readability */
+}
+
+/* Adding spacing between job sections, clearly separating between them. */
+.formatted-text h5 {
+    margin-top: 25px; /* Adjust as needed */
+    padding-top: 10px; /* Extra spacing for separation */
+}
+
+#about-me {
+    padding-bottom: 15px;
+}
+
+/* Apply consistent line spacing across all sections */
+.section-container p,
+.section-container ul,
+.section-container li {
+    line-height: 1.8;
+}
