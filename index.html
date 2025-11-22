@@ -3,172 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>George Luther - Data Scientist</title>
+    <title>George Luther | AI Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css"> <!-- Link to external CSS -->
-    <style>
-        /* Increase padding to create space below the navbar */
-        body {
-            padding-top: 50px; /* Adjust the spacing between navbar and content */
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<body class="theme-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark glass-nav fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">George Luther</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <a class="navbar-brand fw-bold" href="#">GL.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
+            <div class="collapse navbar-collapse justify-content-end" id="navLinks">
+                <div class="navbar-nav align-items-lg-center gap-lg-3">
+                    <a class="nav-link" href="#stack">Skills</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="mailto:george.luther1@hotmail.com">Contact</a>
+                    <a class="btn btn-accent ms-lg-2" href="https://github.com/Georgarex" target="_blank" rel="noopener">GitHub</a>
+                </div>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <header class="text-center text-white bg-primary py-5">
-        <div class="container">
-            <h1>Hi, I'm George Luther</h1>
-            <p class="lead">Data Scientist | AI Researcher | Algorithms Engineer</p>
-        </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="container section-container">
-        <h2 class="text-center" id="about-me">About Me</h2>
-        <p class="text-center justify-text">
-        I am a passionate Data Scientist with 3+ years of experience specializing in <b>algorithm optimization, machine
-        learning, and big data analytics</b>. Proven ability to design AI-driven optimization frameworks,
-        deep learning models, and large-scale data integrations using <b>Python (PuLP, PyTorch), SQL
-        (Athena), and AWS (S3, EC2)</b>. Strong expertise in statistical modeling, data validation, and
-        Tableau-based data visualization for extracting insights from complex datasets. Currently
-        pursuing a <b>Master’s in Artificial Intelligence (WAM 90.67)</b> with a focus on deep learning and predictive analytics.
-        Passionate about scalable AI solutions, quantitative modeling, and business-driven data
-        science.
-        </p>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="container section-container text-center">
-        <h2 class="text-center">Skills</h2>
-        <div class="skills-container">
-            <img src="images/python.png" alt="Python">
-            <img src="images/aws.png" alt="AWS">
-            <img src="images/matlab.png" alt="MATLAB">
-            <img src="images/java.png" alt="Java">
-            <img src="images/sql.png" alt="SQL">
-            <img src="images/pytorch.png" alt="PyTorch">
-            <img src="images/tableau.png" alt="Tableau">
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="container section-container">
-        <h2 class="text-center">Experience</h2>
-        <div class="formatted-text">
-            
-            <h5>Milton Data, North Sydney – Data Scientist</h5>
-            <p><b>JULY 2022 – PRESENT</b></p>
-            <ul>
-                <li>Developed an <b>AI-driven optimization framework</b> leveraging <b>PuLP & hill-climbing algorithms</b> to align <b>40M+ big data records</b> across <b>genre, publisher, and device dimensions</b> using <b>AWS Athena & S3</b> for <b>IPSOS AU</b>.</li>
-                <li>Led <b>YouTube-CTV data integration</b> for <b>Google & IPSOS AU</b>, ensuring <b>99.8% algorithmic consistency</b> across multiple <b>demographic and behavioural constraints</b>.</li>
-                <li>Audited and validated <b>demographic insights</b> for <b>IPSOS UK</b> by assessing distributions of respondent-level data using <b>bootstrap</b> and other <b>statistical methods</b>.</li>
-            </ul>
-
-            <h5>Uber Technologies Ltd., Sydney – Operations Analyst</h5>
-            <p><b>DECEMBER 2021 – JULY 2022</b></p>
-            <ul>
-                <li>Automated <b>compliance verification</b> using <b>Python & BeautifulSoup</b>, reducing manual vehicle status checks for a process by <b>99%</b>, saving <b>2-3 hours per week</b>.</li>
-                <li>Conducted <b>SQL-based data analysis</b> to assess <b>driver compliance & operational efficiency</b>, enabling <b>faster decision-making</b> for business teams.</li>
-                <li>Collaborated with <b>cross-functional teams</b> (Legal, Compliance, and Marketplace) to optimize <b>regulatory adherence</b> & <b>data-driven insights</b> for operational KPIs.</li>
-            </ul>
-
-        </div>
-    </section>
-
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="container section-container">
-        <h2 class="text-center">Projects</h2>
-
-        <div class="formatted-text">
-            <h5><b>Dementia Classification Using Deep Learning</b></h5>
-            <p>Developed an ensemble deep learning model using MRI scans and ResNet-50 for dementia classification with limited computational resources.</p>
-            <p><b>Key Takeaways:</b></p>
-            <ul>
-                <li>Gained hands-on experience with <b>PyTorch preprocessing</b> techniques.</li>
-                <li>Developed a deep learning model that achieved <b>59.58% accuracy</b> across multiple dementia classes.</li>
-                <li>Worked extensively with <b>image processing and augmentation</b> techniques.</li>
-                <li>Handled medical imaging datasets efficiently using <b>PyTorch image loaders</b>.</li>
-                <li>Addressed <b>class imbalance</b> by implementing advanced resampling techniques.</li>
-            </ul>
-            <div class="pdf-container">
-                <iframe src="resources/OASIS_Dementia_Classification_final.pdf"></iframe>
-            </div>
-            <p>
-                <a href="https://www.kaggle.com/code/georgeluther/oasis-classification-3-level-model" target="_blank" class="btn btn-primary">View Kaggle Notebook</a>
-                <a href="resources/OASIS_Dementia_Classification_final.pdf" download class="btn btn-secondary">Download PDF</a>
+    <main class="page container">
+        <header class="hero">
+            <div class="eyebrow">Data Science · AI Engineering · Deep Learning</div>
+            <h1>Building AI projects that can survive real-world traffic.</h1>
+            <p class="lead">
+                AI engineer with a Master’s in Artificial Intelligence, specializing in LLM systems, multi-agent workflows, deep learning, and MLOps. I build models, pipelines, and interactive tools that emphasize reliability, interpretability, and robustness. Comfortable with cloud, data engineering, optimization, and deploying AI systems end-to-end.
             </p>
-        </div>
-
-        <div class="formatted-text mt-4">
-            <h5><b>Variational Autoencoder for Data Oversampling</b></h5>
-            <p>Implemented VAEs to generate synthetic samples, addressing class imbalance in training data.</p>
-            <p><b>Key Takeaways:</b></p>
-            <ul>
-                <li>Explored and visualized the <b>latent space</b> to understand how the VAE encodes data distributions.</li>
-                <li>Developed a <b>Multilayer Perceptron (MLP)</b> and a <b>Variational Autoencoder (VAE)</b> using PyTorch.</li>
-                <li>Generated <b>synthetic samples</b> to improve class balance and enhance model training.</li>
-                <li>Implemented <b>oversampling techniques</b> using VAE-generated data to address dataset imbalance.</li>
-                <li>Fine-tuned the <b>VAE's loss function</b> and regularization to improve reconstruction accuracy.</li>
-            </ul>
-            <div class="pdf-container">
-                <iframe src="resources/VAE_Oversampling_Project.pdf"></iframe>
+            <div class="cta-row">
+                <a class="btn btn-accent" href="#projects">View projects</a>
+                <a class="btn btn-ghost" href="mailto:george.luther1@hotmail.com">Email me</a>
             </div>
-            <p>
-                <a href="https://colab.research.google.com/drive/16KwuF8GyjZT8eOnaDKBb7Yx0L5O09loo" target="_blank" class="btn btn-primary">View Google Colab Notebook</a>
-                <a href="resources/VAE_Oversampling_Project.pdf" download class="btn btn-secondary">Download PDF</a>
-            </p>
-        </div>
+        </header>
 
-        <div class="formatted-text mt-4">
-            <h5><b>Physics Simulation of a Double Pendulum</b></h5>
-            <p class="justify-text">Simulated chaotic motion of a double pendulum in MATLAB using numerical integration techniques.</p>
-            <p><b>Key Takeaways:</b></p>
-            <ul>
-                <li>Implemented <b>numerical integration techniques</b> such as <b>Euler's Method</b> and <b>Runge-Kutta (RK4)</b> for simulating motion.</li>
-                <li>Modeled the <b>chaotic behavior</b> of a double pendulum using <b>Lagrangian mechanics</b>.</li>
-                <li>Developed MATLAB scripts to visualize <b>energy conservation</b> and <b>phase-space trajectories.</b></li>
-                <li>Worked with <b>differential equations</b> to compute angular velocity and acceleration.</li>
-                <li>Generated animated visualizations to illustrate the <b>sensitive dependence on initial conditions</b>.</li>
-            </ul>
-            <div class="pdf-container">
-                <iframe src="resources/physics_double_pendulum_simulation.pdf"></iframe>
+        <section id="stack" class="stack">
+            <div class="section-top">
+                <div>
+                    <div class="eyebrow">Skills & tools</div>
+                    <h2>Skills</h2>
+                </div>
+                <p class="stack-note">Everything I’ve used recently...</p>
             </div>
-            <p><a href="resources/physics_double_pendulum_simulation.pdf" download class="btn btn-primary">Download PDF</a></p>
-        </div>
-    </section>
+            <div class="skill-panel">
+                <span class="chip">Python</span>
+                <span class="chip">PyTorch</span>
+                <span class="chip">NLP / Transformers</span>
+                <span class="chip">LangChain</span>
+                <span class="chip">Java</span>
+                <span class="chip">C++</span>
+                <span class="chip">Reinforcement Learning</span>
+                <span class="chip">Optimization (PuLP)</span>
+                <span class="chip">VAEs</span>
+                <span class="chip">Computer Vision</span>
+                <span class="chip">AWS (S3, EC2, Athena)</span>
+                <span class="chip">SQL</span>
+                <span class="chip">Tableau</span>
+                <span class="chip">Data Validation & QA</span>
+                <span class="chip">BeautifulSoup</span>
+                <span class="chip">MATLAB</span>
+            </div>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="bg-light py-5">
-        <div class="container text-center">
-            <h2>Contact Me</h2>
-            <div class="d-flex justify-content-center gap-3">
-                <p>Email: <a href="mailto:george.luther1@hotmail.com">George.Luther1@hotmail.com</a></p>
-                <p><a href="https://www.linkedin.com/in/george-luther-699a01191/" target="_blank">LinkedIn</a></p>
-                <p><a href="https://github.com/Georgarex" target="_blank">GitHub</a></p>
+        <section id="projects" class="projects">
+            <div class="section-top">
+                <div>
+                    <div class="eyebrow">Project slideshow</div>
+                    <h2>Projects</h2>
+                </div>
+                <div class="carousel-controls d-none d-md-flex">
+                    <button class="control-btn" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">Prev</button>
+                    <button class="control-btn" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">Next</button>
+                </div>
             </div>
-        </div>
-    </section>
+
+            <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="9000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <article class="project-card image-bg" style="background-image: url('images/mult-agent-image.jpeg');">
+                            <div class="project-meta">Multi-Agent · LangChain · RAG</div>
+                            <h3>Multi-Agent Finance Risk Analysis</h3>
+                            <p>LangChain and RAG-powered finance system with specialized agents that pull real-time data, debate, and converge on risk-aware investment calls, inspired by BlackRock.</p>
+                            <ul class="project-points">
+                                <li>Six-agent workflow handling data retrieval, fundamentals, sentiment, valuation, risk, and report writing.</li>
+                                <li>Round-robin debate manager to surface disagreements and drive consensus on investment recommendations.</li>
+                                <li>Supports local/Ollama or API-backed models; includes reproducible setup, tests, and sample outputs.</li>
+                            </ul>
+                            <div class="link-row">
+                                <a class="btn btn-accent" href="https://github.com/GeorgeLuther25/multi-agent-finance-risk-analysis" target="_blank" rel="noopener">GitHub repo</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="carousel-item">
+                        <article class="project-card image-bg" style="background-image: url('images/dementia-classification-project-image.png');">
+                            <div class="project-meta">Deep Learning · Medical Imaging</div>
+                            <h3>Dementia classification using MRI scans</h3>
+                            <p>Ensembled ResNet-based models to classify dementia severity with tight GPU limits, keeping inference fast enough for interactive review.</p>
+                            <ul class="project-points">
+                                <li>PyTorch preprocessing and augmentation tailored to noisy MRI data.</li>
+                                <li>Handled class imbalance with resampling strategies to lift minority-class accuracy.</li>
+                                <li>Packaged outputs into a lightweight review flow for clinicians.</li>
+                            </ul>
+                            <div class="link-row">
+                                <a class="btn btn-accent" href="https://www.kaggle.com/code/georgeluther/oasis-classification-3-level-model" target="_blank" rel="noopener">Kaggle notebook</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="carousel-item">
+                        <article class="project-card image-bg" style="background-image: url('images/vae-embedding.png');">
+                            <div class="project-meta">Generative Models · Data Quality</div>
+                            <h3>Variational Autoencoder oversampling</h3>
+                            <p>Used VAEs to synthesize training samples for skewed datasets, improving model robustness without expensive data collection.</p>
+                            <ul class="project-points">
+                                <li>Explored latent spaces to monitor mode coverage and reconstruction quality.</li>
+                                <li>Compared VAE-driven oversampling to classical SMOTE variants on tabular data.</li>
+                                <li>Wrapped training into a reproducible Colab workflow for quick tuning.</li>
+                            </ul>
+                            <div class="link-row">
+                                <a class="btn btn-accent" href="https://colab.research.google.com/drive/16KwuF8GyjZT8eOnaDKBb7Yx0L5O09loo" target="_blank" rel="noopener">Open in Colab</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="d-md-none mobile-controls">
+                    <button class="control-btn" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">Prev</button>
+                    <button class="control-btn" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">Next</button>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="eyebrow">Say hello</div>
+            <h4>george.luther1@hotmail.com</h4>
+            <div class="chip-row">
+                <a class="chip chip-link" href="https://www.linkedin.com/in/george-luther-699a01191/" target="_blank" rel="noopener">LinkedIn</a>
+                <a class="chip chip-link" href="https://github.com/Georgarex" target="_blank" rel="noopener">GitHub</a>
+                <a class="chip chip-link" href="mailto:george.luther1@hotmail.com">Email</a>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
