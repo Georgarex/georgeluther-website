@@ -113,6 +113,12 @@ a:hover {
     border-color: var(--accent);
 }
 
+.justify-text {
+    text-align: justify;
+    text-align-last: justify;
+    text-justify: inter-word;
+}
+
 .cta-row {
     display: flex;
     gap: 12px;
